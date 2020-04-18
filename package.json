@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-test-production": "newman run /Users/Vahan/workspace/postman-newman-jenkins/tests/JsonPlaceHolder.com.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
+    "api-test-production": "newman run /Users/Vahan/workspace/postman-newman-jenkins/tests/JsonPlaceHolder.com.postman_collection.json --reporters cli,junit --reporter-junit-export newman.xml"
   },
   "author": "Vahan M.",
   "dependencies": {
